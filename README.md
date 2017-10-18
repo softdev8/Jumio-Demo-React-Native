@@ -161,39 +161,3 @@ DeviceEventEmitter.addListener('EventDocumentData|EventCardInformation|EventDocu
     alert(e)
 });
 ```
-
-## Customization
-
-### Android
-
-The Netverify SDK can be customized to the respective needs by following this [customization chapter](https://github.com/Jumio/mobile-sdk-android/blob/v2.8.0/docs/integration_netverify-fastfill.md#customization).
-
-### iOS
-
-The SDK can be customized to the respective needs by using the following initializers instead.
-```javascript
-JumioMobileSDK.initNetverifyWithCustomization(<API_TOKEN>, <API_SECRET>, <DATACENTER>, {configuration}, {customization});
-JumioMobileSDK.initDocumentVerificationWithCustomization(<API_TOKEN>, <API_SECRET>, <DATACENTER>, {configuration}, {customization});
-JumioMobileSDK.initBAMWithCustomization(<API_TOKEN>, <API_SECRET>, <DATACENTER>, {configuration}, {customization});
-```
-
-You can find all the different customization options by following the [customization chapter](https://github.com/Jumio/mobile-cordova/blob/master/README.md#ios-1) of our Cordova plugin.
-
-## Callbacks
-
-To get information about callbacks, please see the [callback chapter](https://github.com/Jumio/mobile-cordova/blob/master/README.md#callback) of our Cordova plugin.
-
-
-# Support
-
-## Contact
-
-If you have any questions regarding our implementation guide please contact Jumio Customer Service at support@jumio.com or https://support.jumio.com. The Jumio online helpdesk contains a wealth of information regarding our service including demo videos, product descriptions, FAQs and other things that may help to get you started with Jumio. Check it out at: https://support.jumio.com.
-
-## Copyright
-
-&copy; Jumio Corp. 268 Lambert Avenue, Palo Alto, CA 94306
-
-
-
-
